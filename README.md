@@ -28,7 +28,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 ```sh
-		dependencies {
+	dependencies {
 	        implementation 'com.github.ChahatGupta:FadeInTextView-Android:1.0'
 	}
 ```
