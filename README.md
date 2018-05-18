@@ -66,6 +66,7 @@ Step 2. Add the dependency
         	android:layout_height="wrap_content"
         	android:textSize="30sp"
         	android:textColor="@android:color/black"
+		
         	app:letterDuration="250"/>
 ```
 
