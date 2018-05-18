@@ -63,13 +63,13 @@ Step 2. Add the dependency
 
 ```sh
 	<believe.cht.fadeintextview.TextView
-        	android:id="@+id/textView"
-        	android:layout_width="match_parent"
-        	android:layout_height="wrap_content"
-        	android:textSize="30sp"
-        	android:textColor="@android:color/black"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@android:color/black"
 		
-        	app:letterDuration="250"/>
+            app:letterDuration="250"/>
 ```
 
 ### In the Java class
@@ -89,15 +89,15 @@ Step 2. Add the dependency
     
 ## Known Bugs
 
-* the default android:text attribute to set the initial text doesn't seem to work, will be fixed in coming versions.
+* The default android:text attribute to set the initial text doesn't seem to work, will be fixed in coming versions.
 
 ## Meta
 
-Your Name – [@i_m_cht](https://twitter.com/i_m_cht) – admin@believe-labs.co
+Chahat Gupta – [@i_m_cht](https://twitter.com/i_m_cht) – admin@believe-labs.co
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/ChahatGupta/FadeInTextView-Android](https://github.com/ChahatGupta/FadeInTextView-Android)
 
 ## Contributing
 
