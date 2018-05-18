@@ -90,7 +90,7 @@ Step 2. Add the dependency
 ## Known Bugs
 
 * The default android:text attribute to set the initial text doesn't seem to work, will be fixed in coming versions.
-* Facing issues cloning/running the project? See [this.](https://stackoverflow.com/questions/34353220/android-studio-please-select-android-sdk) (Not really a bug, I guess)
+* Facing issues cloning/running the project? See [this](https://stackoverflow.com/questions/34353220/android-studio-please-select-android-sdk). (Not really a bug, I guess)
 
 ## Meta
 
