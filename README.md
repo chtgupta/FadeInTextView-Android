@@ -1,5 +1,4 @@
 # Fade-InTextView
-> Not just another typewriter library.
 
 ![Release](https://jitpack.io/v/ChahatGupta/FadeInTextView-Android.svg)
 
@@ -29,7 +28,7 @@ Step 2. Add the dependency
 
 ```sh
 	dependencies {
-	        implementation 'com.github.ChahatGupta:FadeInTextView-Android:1.0'
+	        implementation 'com.github.ChahatGupta.FadeInTextView-Android:fade-intextview:1.0'
 	}
 ```
 
