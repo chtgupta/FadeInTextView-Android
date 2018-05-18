@@ -73,7 +73,7 @@ Step 2. Add the dependency
 ### In the Java class
 
 ```sh
-  believe.cht.fadeintextview.TextView textView textView = (believe.cht.fadeintextview.TextView) findViewById(R.id.textView);
+  believe.cht.fadeintextview.TextView textView = (believe.cht.fadeintextview.TextView) findViewById(R.id.textView);
   
   textView.setLetterDuration(250); // sets letter duration programmatically
   textView.isAnimating(); // returns current animation state (boolean)
