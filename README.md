@@ -8,7 +8,7 @@ Say hi to Fade-In TextView! A custom TextView library which makes every characte
 The Fade-In TextView library inherits its properties directly from the native TextView class, which means that all the native TextView methods are supported.
 There are practically no limitations including multiline support. The library also has some of its own methods and attributes which offer full control over the View.
 
-<img height="450" src='screencast/Fade-In TextView.gif'/>
+<img src='Fade-In TextView.gif'/>
 
 ## Installation
 
