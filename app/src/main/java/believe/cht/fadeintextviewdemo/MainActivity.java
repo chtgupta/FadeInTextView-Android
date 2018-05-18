@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         textView = (believe.cht.fadeintextview.TextView) findViewById(R.id.textView);
         editText = (EditText) findViewById(R.id.editText);
         button = (Button) findViewById(R.id.button);
+        
+        editText.setText(getResources().getString(R.string.welcome_message));
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
