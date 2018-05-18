@@ -1,4 +1,4 @@
-# Fade-InTextView
+# Fade-In TextView
 
 ![Release](https://jitpack.io/v/ChahatGupta/FadeInTextView-Android.svg)
 
