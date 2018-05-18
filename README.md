@@ -38,11 +38,11 @@ Step 2. Add the dependency
 Step 1. Add the JitPack repository to your build file
 
 ```sh
-		<repositories>
-		  <repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		  </repository>
+	  <repositories>
+          	<repository>
+          		<id>jitpack.io</id>
+	  		<url>https://jitpack.io</url>
+	  	</repository>
 	  </repositories>
 ```
 
@@ -62,18 +62,18 @@ Step 2. Add the dependency
 
 ```sh
 	<believe.cht.fadeintextview.TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="@android:color/black"
-        app:letterDuration="250"/>
+        	android:id="@+id/textView"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:textSize="30sp"
+        	android:textColor="@android:color/black"
+        	app:letterDuration="250"/>
 ```
 
 ### In the Java class
 
 ```sh
-	believe.cht.fadeintextview.TextView textView textView = (believe.cht.fadeintextview.TextView) findViewById(R.id.textView);
+  believe.cht.fadeintextview.TextView textView textView = (believe.cht.fadeintextview.TextView) findViewById(R.id.textView);
   
   textView.setLetterDuration(250); // sets letter duration programmatically
   textView.isAnimating(); // returns current animation state (boolean)
