@@ -112,7 +112,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Support
 
-* Liked my work? Star it to show support!
+* Liked my work? **Star** it to show support!
 * Used it in your app? Let me know and I'll include your app name, logo and link in this repository.
 * Want to take this to another level? Read ``CONTRIBUTING`` again!
 
