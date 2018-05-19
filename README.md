@@ -85,9 +85,9 @@ Step 2. Add the dependency
 ## Release History
 
 * 1.1
-    * Added preview text in demo app
+     * Added preview text in demo app
 * 1.0
-    * Initial release
+     * Initial release
  
 ## Known Bugs
 
