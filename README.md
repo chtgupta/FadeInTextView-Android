@@ -110,6 +110,12 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 4. **Push** your work back up to your fork
 5. Submit a **Pull request** so that I can review changes
 
+## Support
+
+* Liked my work? Star it to show support!
+* Used it in your app? Let me know and I'll include your app name, logo and link in this repository.
+* Want to take this to another level? Read ``CONTRIBUTING`` again!
+
 ## License
 
 ```sh
