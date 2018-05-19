@@ -28,7 +28,7 @@ Step 2. Add the dependency
 
 ```sh
 	dependencies {
-	        implementation ('com.github.ChahatGupta:FadeInTextView-Android:1.0') {
+	        implementation ('com.github.ChahatGupta:FadeInTextView-Android:1.1') {
           	     exclude module: 'app'
     		}
 	}
@@ -53,7 +53,7 @@ Step 2. Add the dependency
 	<dependency>
 	    <groupId>com.github.ChahatGupta</groupId>
 	    <artifactId>FadeInTextView-Android</artifactId>
-	    <version>1.0</version>
+	    <version>1.1</version>
 	</dependency>
 ```
 
@@ -84,9 +84,11 @@ Step 2. Add the dependency
 
 ## Release History
 
+* 1.1
+    * Added preview text in demo app
 * 1.0
-    * Initial release
-    
+    * Initial release
+ 
 ## Known Bugs
 
 * The default android:text attribute to set the initial text doesn't seem to work, will be fixed in coming versions.
