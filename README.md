@@ -2,6 +2,8 @@
 
 ![Release](https://jitpack.io/v/ChahatGupta/FadeInTextView-Android.svg)
 
+<img src="Logotype primary.png" width="80%" height="80%" />
+
 Say hi to Fade-In TextView! A custom TextView library which makes every character appear with a smooth alpha animation.
 
 The Fade-In TextView library inherits its properties directly from the native TextView class, which means that all the native TextView methods are supported.
