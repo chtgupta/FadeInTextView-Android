@@ -1,3 +1,5 @@
+<p align="center"><img src="logo/2014.png" alt="FadeInTextView-Android" height="200px"></p>
+
 # Fade-In TextView
 
 ![Release](https://jitpack.io/v/ChahatGupta/FadeInTextView-Android.svg)
