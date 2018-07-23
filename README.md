@@ -30,7 +30,7 @@ Step 2. Add the dependency
 
 ```sh
 	dependencies {
-	        implementation ('com.github.ChahatGupta:FadeInTextView-Android:1.1') {
+	        implementation ('com.github.ChahatGupta:FadeInTextView-Android:2.1.0') {
           	     exclude module: 'app'
     		}
 	}
@@ -80,12 +80,30 @@ Step 2. Add the dependency
   believe.cht.fadeintextview.TextView textView = (believe.cht.fadeintextview.TextView) findViewById(R.id.textView);
   
   textView.setLetterDuration(250); // sets letter duration programmatically
-  textView.isAnimating(); // returns current animation state (boolean)
   textView.setText(); // sets the text with animation
+  textView.isAnimating(); // returns current boolean animation state (optional)
+  
+  // setting a listener for tracking events (optional)
+  textView.setListener(new TextViewListener() {
+            @Override
+            public void onTextStart() {
+                Toast.makeText(getBaseContext(), "onTextStart() fired!", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onTextFinish() {
+                Toast.makeText(getBaseContext(), "onTextFinish() fired!", Toast.LENGTH_SHORT).show();
+            }
+        });
 ```
 
 ## Release History
 
+* 2.1.0
+	* Added TextViewListener
+	* Created methods to implement TextViewListener in TextView
+	* Implemented new additions in the demo app
+	* Added new logo by @mansya to the demo app
 * 1.1
 	* Added preview text in demo app
 * 1.0
