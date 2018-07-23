@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import believe.cht.fadeintextview.TextViewListener;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,10 +20,26 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView = (believe.cht.fadeintextview.TextView) findViewById(R.id.textView);
-        editText = (EditText) findViewById(R.id.editText);
-        button = (Button) findViewById(R.id.button);
-        
+        textView = findViewById(R.id.textView);
+        editText = findViewById(R.id.editText);
+        button = findViewById(R.id.button);
+
+        textView = findViewById(R.id.textView);
+        textView.setListener(new TextViewListener() {
+            @Override
+            public void onTextStart() {
+                Toast.makeText(getBaseContext(), "onTextStart() fired!", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onTextFinish() {
+                Toast.makeText(getBaseContext(), "onTextFinish() fired!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        editText = findViewById(R.id.editText);
+        button = findViewById(R.id.button);
+
         editText.setText(getResources().getString(R.string.welcome_message));
 
         button.setOnClickListener(new View.OnClickListener() {

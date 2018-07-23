@@ -24,6 +24,7 @@ public class TextView extends AppCompatTextView {
     private Interpolator mInterpolator;
     private CharSequence charSequence;
     private SpannableString spannableString;
+    TextViewListener textViewListener;
 
     public TextView(Context context) {
         super(context);
@@ -75,6 +76,11 @@ public class TextView extends AppCompatTextView {
         }
 
         final int length = spannableString.length();
+
+        if (textViewListener != null) {
+            textViewListener.onTextStart(); // firing onTextStart()
+        }
+
         for (int i = 0; i < length; i++) {
             spannableString.setSpan(new Letter(), i, i + 1, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
         }
@@ -112,6 +118,9 @@ public class TextView extends AppCompatTextView {
                 ViewCompat.postInvalidateOnAnimation(this);
             } else {
                 isAnimating = false;
+                if (textViewListener != null) {
+                    textViewListener.onTextFinish(); // firing onTextFinish()
+                }
             }
 
         }
@@ -120,6 +129,11 @@ public class TextView extends AppCompatTextView {
     // to get the current Animation state
     public boolean isAnimating() {
         return isAnimating;
+    }
+
+    // to set listener
+    public void setListener(TextViewListener textViewListener) {
+        this.textViewListener = textViewListener;
     }
 
 }

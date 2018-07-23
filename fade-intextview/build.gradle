@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'FadeInTextView-Android'
+    bintrayName = 'FadeInTextView-Android'
+
+    publishedGroupId = 'believe.cht'
+    libraryName = 'FadeInTextView'
+    artifact = 'FadeInTextView'
+
+    libraryDescription = 'A custom TextView library to set text with a fade-in typewriter animation'
+
+    siteUrl = 'https://github.com/ChahatGupta/FadeInTextView-Android'
+    gitUrl = 'https://github.com/ChahatGupta/FadeInTextView-Android.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'ChahatGupta'
+    developerName = 'Chahat Gupta'
+    developerEmail = 'admin@believe-labs.co'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 26
 
@@ -32,3 +56,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
