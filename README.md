@@ -93,7 +93,7 @@ Step 2. Add the dependency
         });
   
   textView.setLetterDuration(250); // sets letter duration programmatically
-  textView.setText(); // sets the text with animation (read ``KNOWN BUGS`` if it doesn't give desired results)
+  textView.setText(); // sets the text with animation (Read ``KNOWN BUGS`` if it doesn't give desired results)
   textView.isAnimating(); // returns current boolean animation state (optional)
   
 ```
