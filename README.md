@@ -77,11 +77,7 @@ Step 2. Add the dependency
 ### In the Java class
 
 ```sh
-  believe.cht.fadeintextview.TextView textView = (believe.cht.fadeintextview.TextView) findViewById(R.id.textView);
-  
-  textView.setLetterDuration(250); // sets letter duration programmatically
-  textView.setText(); // sets the text with animation
-  textView.isAnimating(); // returns current boolean animation state (optional)
+  believe.cht.fadeintextview.TextView textView = findViewById(R.id.textView);
   
   // setting a listener for tracking events (optional)
   textView.setListener(new TextViewListener() {
@@ -95,6 +91,11 @@ Step 2. Add the dependency
                 Toast.makeText(getBaseContext(), "onTextFinish() fired!", Toast.LENGTH_SHORT).show();
             }
         });
+  
+  textView.setLetterDuration(250); // sets letter duration programmatically
+  textView.setText(); // sets the text with animation
+  textView.isAnimating(); // returns current boolean animation state (optional)
+  
 ```
 
 ## Release History
@@ -112,6 +113,7 @@ Step 2. Add the dependency
 ## Known Bugs
 
 * The default android:text attribute to set the initial text doesn't seem to work, will be fixed in coming versions.
+* If setText() doesn't give desired results, consider calling it from a method and not directly from onCreate().
 * Facing issues cloning/running the project? See [this](https://stackoverflow.com/questions/34353220/android-studio-please-select-android-sdk). (Not really a bug, I guess)
 
 ## Meta
