@@ -55,7 +55,7 @@ Step 2. Add the dependency
 	<dependency>
 	    <groupId>com.github.ChahatGupta</groupId>
 	    <artifactId>FadeInTextView-Android</artifactId>
-	    <version>1.1</version>
+	    <version>2.1.0</version>
 	</dependency>
 ```
 
