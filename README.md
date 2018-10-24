@@ -118,7 +118,7 @@ Step 2. Add the dependency
 
 ## Meta
 
-Chahat Gupta – [@i_m_cht](https://twitter.com/i_m_cht) – admin@believe-labs.co
+Chahat Gupta – [@chtgupta](https://chtgupta.github.io) – admin@speakapp.me
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
