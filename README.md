@@ -30,7 +30,7 @@ Step 2. Add the dependency
 
 ```sh
 	dependencies {
-	        implementation ('com.github.ChahatGupta:FadeInTextView-Android:2.1.0') {
+	        implementation ('com.github.chtgupta:FadeInTextView-Android:2.1.0') {
           	     exclude module: 'app'
     		}
 	}
@@ -53,7 +53,7 @@ Step 2. Add the dependency
 
 ```sh
 	<dependency>
-	    <groupId>com.github.ChahatGupta</groupId>
+	    <groupId>com.github.chtgupta</groupId>
 	    <artifactId>FadeInTextView-Android</artifactId>
 	    <version>2.1.0</version>
 	</dependency>
@@ -122,7 +122,7 @@ Chahat Gupta – [@i_m_cht](https://twitter.com/i_m_cht) – admin@believe-labs.
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/ChahatGupta/FadeInTextView-Android](https://github.com/ChahatGupta/FadeInTextView-Android)
+[https://github.com/chtgupta/FadeInTextView-Android/](https://github.com/chtgupta/FadeInTextView-Android/)
 
 ## Contributing
 
